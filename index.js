@@ -26,7 +26,7 @@ addToCart('Apple')
 function viewCart() {
   // write your code here
   if (getCart().length=0){
-    message=`Your shopping cart is empty.`
+    var message=`Your shopping cart is empty.`
   }
   return message
 }
