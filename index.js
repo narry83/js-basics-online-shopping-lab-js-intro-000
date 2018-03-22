@@ -31,6 +31,7 @@ function viewCart() {
   else{
     var message=`In your cart,`
     for (var i=0:getCart().length:i++){
+      message=message+ `you have ${getCart().itemObj.itemName} at ${getCart().itemObj.itemPrice} `
 
     }
   }
