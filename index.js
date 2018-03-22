@@ -28,6 +28,12 @@ function viewCart() {
   if (getCart().length===0){
     var message=`Your shopping cart is empty.`
   }
+  else{
+    var message=`In your cart,`
+    for (var i=0:getCart().length:i++){
+
+    }
+  }
   return message
 }
 
